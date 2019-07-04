@@ -1,0 +1,88 @@
+body {
+    padding-top: 80px
+}
+
+.text-center {
+    text-align: center
+}
+
+.error {
+    color: red;
+}
+
+.panel {
+    background-color: #f3f4f5;
+    border-radius: 5px;
+    margin-bottom: 27px;
+    box-shadow: 1px 4px 4px 0px #ddd
+}
+
+.panel>.header {
+    padding-bottom: 16px;
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+    color: #444;
+    padding: 15px;
+}
+
+.panel .body {
+    border: 1px solid #e8e8e8;
+    padding: 15px;
+}
+
+.help-block{
+  color: red
+}
+
+#datatable select{
+    padding: 0.5px;
+    outline: none;
+    border-radius: 8px;
+    background-color: #fff;
+    cursor: pointer
+}
+
+
+.ui.modal > .close {
+    color:#000 !important;
+    top: .5rem !important;
+    right: .5rem !important;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1150px) {
+    .small-menu {
+        display: block;
+        margin-top: -80px;
+        margin-bottom: 40px;
+        width:100%;
+        background: #1b1c1d;
+        padding: 15px
+    }
+    .full-menu {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 1150px) {
+    .small-menu {
+        display: none;
+    }
+    .full-menu {
+        display: flex !important;
+        
+    }
+}
+
+.main-menu{
+    color:#eee
+}
+.main-menu>span,.main-menu .child-menu>span,.parent-menu>span,.child-menu>a{
+    display: block;
+    padding: 15px;
+    border-bottom: 1px dashed #555;
+    cursor: pointer
+}
+
+.child-menu>a{
+    padding-left:34px
+}
